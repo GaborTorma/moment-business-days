@@ -1,37 +1,37 @@
 {
-    "name": "moment-business-days",
-    "version": "1.3.0",
-    "description": "MomentJS plugin to use business days",
-    "main": "index.js",
-    "types": "./index.d.ts",
-    "scripts": {
-        "test": "mocha tests/*"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kalmecak/moment-business-days.git"
-    },
-    "keywords": [
-        "moment",
-        "momentjs",
-        "business",
-        "days",
-        "plugin"
-    ],
-    "type": "module",
-    "peerDependencies": {
-        "moment": "2.x.x"
-    },
-    "author": "Christian Rodriguez Cisneros <rcchristiane@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/kalmecak/moment-business-days/issues"
-    },
-    "homepage": "https://github.com/kalmecak/moment-business-days",
-    "devDependencies": {
-        "chai": "^4.3.6",
-        "mocha": "^10.0.0",
-        "moment": "^2.29.3",
-        "ts-node": "^10.8.2"
-    }
+  "name": "moment-working-days",
+  "version": "1.3.0",
+  "description": "MomentJS plugin to use business days",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "mocha tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GaborTorma/moment-working-days.git"
+  },
+  "keywords": [
+    "moment",
+    "momentjs",
+    "business",
+    "days",
+    "plugin"
+  ],
+  "type": "module",
+  "peerDependencies": {
+    "moment": "2.x.x"
+  },
+  "author": "Christian Rodriguez Cisneros <rcchristiane@gmail.com>, Gábor Torma <gabor@torma.co.hu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GaborTorma/moment-working-days/issues"
+  },
+  "homepage": "https://github.com/GaborTorma/moment-working-days",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "moment": "^2.29.3",
+    "ts-node": "^10.8.2"
+  }
 }
