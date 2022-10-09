@@ -3,8 +3,8 @@ Original release: [kalmecak/moment-business-days](https://github.com/kalmecak/mo
 
 # moment-working-days
 
-<a href="https://github.com/kalmecak/moment-working-days/actions" target="_blank">
-  <img alt="Version" src="https://github.com/kalmecak/moment-working-days/workflows/Continuous%20Integration/badge.svg?branch=master">
+<a href="https://github.com/GaborTorma/moment-working-days/actions" target="_blank">
+  <img alt="Version" src="https://github.com/GaborTorma/moment-working-days/workflows/Continuous%20Integration/badge.svg?branch=master">
 </a>
 
 This is a [Moment.js](https://github.com/moment/moment/) plugin that allows you to work with only business days
