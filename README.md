@@ -1,10 +1,10 @@
 # Forked
 Original release: [kalmecak/moment-business-days](https://github.com/kalmecak/moment-business-days).
 
-# moment-business-days
+# moment-working-days
 
-<a href="https://github.com/kalmecak/moment-business-days/actions" target="_blank">
-  <img alt="Version" src="https://github.com/kalmecak/moment-business-days/workflows/Continuous%20Integration/badge.svg?branch=master">
+<a href="https://github.com/kalmecak/moment-working-days/actions" target="_blank">
+  <img alt="Version" src="https://github.com/kalmecak/moment-working-days/workflows/Continuous%20Integration/badge.svg?branch=master">
 </a>
 
 This is a [Moment.js](https://github.com/moment/moment/) plugin that allows you to work with only business days
@@ -21,7 +21,7 @@ being counted as business days, for example **national holidays**.
 
 ````javascript
 // NodeJS: require instead of standard moment package
-var moment = require('moment-business-days');
+var moment = require('moment-working-days');
 // You'll be able use Moment.js as you normally do
 ````
 
@@ -29,7 +29,7 @@ var moment = require('moment-business-days');
 <!-- Browser -->
 <!-- NB: add after moment.js -->
 <script src="moment.js"></script>
-<script src="moment-business-days.js"></script>
+<script src="moment-working-days.js"></script>
 ````
 
 ## Configuration
@@ -37,7 +37,7 @@ var moment = require('moment-business-days');
 ### Use localization to configure holidays and forced business days
 
 ````javascript
-var moment = require('moment-business-days');
+var moment = require('moment-working-days');
 
 var july4th = '2015-07-04';
 var laborDay = '2015-09-07';
@@ -50,13 +50,13 @@ moment.updateLocale('us', {
   forcedBusinessDaysFormat: 'YYYY-MM-DD'
 });
 
-// moment-business-days will now stop considering these holidays as business days, but still count forced business days.
+// moment-working-days will now stop considering these holidays as business days, but still count forced business days.
 ````
 
 ### Use localization to configure business days
 
 ````javascript
-var moment = require('moment-business-days');
+var moment = require('moment-working-days');
 
 moment.updateLocale('us', {
    workingWeekdays: [1, 2, 3, 4, 5, 6]
@@ -156,7 +156,7 @@ moment('2015-02-02', 'YYYY-MM-DD').nextBusinessDay()._d // Tue Feb 03 2015 00:00
 By default only 7 days into the future are checked for the next business day. To search beyond 7 days
 set the nextBusinessDayLimit (as a number) higher.
 ````javascript
-var moment = require('moment-business-days');
+var moment = require('moment-working-days');
 
 moment.updateLocale('us', {
    nextBusinessDayLimit: 31
@@ -178,7 +178,7 @@ moment('2015-02-03', 'YYYY-MM-DD').prevBusinessDay()._d // Mon Feb 02 2015 00:00
 By default only the last 7 days are checked for the previous business day. To search beyond 7 days
 set the prevBusinessDayLimit (as a number) higher.
 ````javascript
-var moment = require('moment-business-days');
+var moment = require('moment-working-days');
 
 moment.updateLocale('us', {
    prevBusinessDayLimit: 31
@@ -253,13 +253,13 @@ It's like `.monthBusinessWeeks()`, but this method will include weekends in it's
 
 ````
 // For Node.js
-$ npm install moment-business-days
+$ npm install moment-working-days
 
 // ...or install and save in package.json
-$ npm install --save moment-business-days
+$ npm install --save moment-working-days
 
 // For bower
-$ bower install moment-business-days
+$ bower install moment-working-days
 ````
 
 ## Testing
