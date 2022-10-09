@@ -1,7 +1,6 @@
 {
-  "name": "moment-working-days",
-  "private": true,
-  "version": "2.0.0",
+  "name": "@gabortorma/moment-working-days",
+  "version": "2.0.2",
   "description": "MomentJS plugin to use business days",
   "main": "index.js",
   "types": "./index.d.ts",
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GaborTorma/moment-working-days.git"
+    "url": "git+https://github.com/GaborTorma/moment-working-days.git"
   },
   "keywords": [
     "moment",
@@ -24,7 +23,7 @@
   "peerDependencies": {
     "moment": "2.x.x"
   },
-  "author": "Christian Rodriguez Cisneros <rcchristiane@gmail.com>, Gábor Torma <gabor@torma.co.hu>",
+  "author": "Christian Rodriguez Cisneros <rcchristiane@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GaborTorma/moment-working-days/issues"
