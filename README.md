@@ -1,5 +1,5 @@
 # Forked
-Original release: kalmecak/moment-business-days
+Original release: [kalmecak/moment-business-days](https://github.com/kalmecak/moment-business-days).
 
 # moment-business-days
 
