@@ -1,6 +1,6 @@
 {
 	"name": "@gabortorma/moment-working-days",
-	"version": "2.0.2",
+	"version": "2.1.0",
 	"description": "MomentJS plugin to use business days",
 	"main": "index.js",
 	"types": "./index.d.ts",
